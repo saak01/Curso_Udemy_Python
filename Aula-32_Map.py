@@ -10,7 +10,8 @@ import math
 
 def area(r):
     """ Calcula a área de um circulo com raio 'r' """
-    return math.pi * (r ** 2)
+    ar = math.pi * (r ** 2)
+    return (f"{ar:.2f}")
 
 print(area(2))
 
@@ -24,8 +25,9 @@ for r in raios:
 
 #2- # Map é uma função  que  recebe dois parâmetros : o primeiro função, Segundo é um iteravel/coleção de elementos
 print('Map')
-ra=map(area,raios)
-print(list(ra))
+ra=list(map(area,raios))
+
+print(type(ra))
 
 #3- # Forma com lambda:
 print('lambada')
