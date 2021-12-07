@@ -19,3 +19,10 @@ multi = lambda x, y: x* y
 res = reduce(multi,dados)
 
 print(res)
+
+#forma com for
+res =1
+for numeros in dados:
+    res *= numeros
+
+print(res)
