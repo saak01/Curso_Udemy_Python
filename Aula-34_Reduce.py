@@ -26,3 +26,6 @@ for numeros in dados:
     res *= numeros
 
 print(res)
+
+#Forma com List Comprehension
+
