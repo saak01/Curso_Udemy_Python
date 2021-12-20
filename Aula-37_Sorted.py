@@ -45,3 +45,5 @@ print(sorted(musicas,key=lambda musica: musica['Titulo']))
 #Trocando as chaves do dicionario, podemos filtrar.
 print(sorted(musicas,key=lambda musica: musica['tocou'],reverse=True))
 
+
+
