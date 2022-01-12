@@ -41,5 +41,3 @@ final = {dado[0]: max(dado[1], dado[2]) for dado in zip(alunos,prova1,prova2)}
 print(final)
  #Podemos utilizar map():
 
-final= zip(alunos,map(lambda nota: max(nota,zip(prova1,prova2))))
-print(dict(final))
