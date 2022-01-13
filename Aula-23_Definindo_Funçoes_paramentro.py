@@ -102,7 +102,7 @@ print(diz_oi())
 
 """
 
-instrutor = 'geek' #Variavel geek
+instrutor = 'geek' #Variavel global
 
 def diz_oi():
     return(f'oi {instrutor}')
