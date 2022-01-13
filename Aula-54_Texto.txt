@@ -1,0 +1,3 @@
+Eu estou estudando Python.
+Este curso tem a finalidade de me guiar em Python 
+Neste momento, estou apredendo a ler arquivo
