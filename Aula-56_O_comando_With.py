@@ -15,6 +15,6 @@ print(len(arquivo))#podemos ver quantidade de linhas dessa forma.
 
 
 """
-with open("Aula-54_Texto.txt") as arquivo:
-arquivo.readlines()
-print(len(arquivo))#podemos ver quantidade de linhas dessa forma.
+with open("Aula-54_Texto.txt") as arquivo: #O próprio with fecha o arquivo, desta forma removendo o  streaming.
+    arquivo.readlines()
+    print(len(arquivo))#podemos ver quantidade de linhas dessa forma.
