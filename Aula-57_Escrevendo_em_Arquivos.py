@@ -2,7 +2,10 @@
 Escrevendo em arquivos
 
 #OBS: Ao abrir um arquivo para leitura , não podemos realizar a escrita nele. Apenas ler, da mesma forma, se abrirmos um arquivo para escrita, não podemos lê-lo, somente escrever nele.
+#Se o arquivo não existir, o arquivo será criado.
+#Se o arquivo existir, todo conteúdo será apagado e re-escrito.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+write()-> Para escrevermos dados em um arquivo, após abrilo utilizamos a função write(), está função recebe uma string como parâmetro.
 
 #Exemplo de escrita - modo: "write"
 
