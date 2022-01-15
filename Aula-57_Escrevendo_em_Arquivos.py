@@ -18,4 +18,5 @@ with open("Aula-54_Texto.txt","w") as arquivo:
 
 
 """
-
+with open("/home/sak/Área de Trabalho/teste.py","w") as arquivo:  #exemplo de como escrever e criar um arquivo em alguma parte do sistema de arquivos.
+    arquivo.write("Salve amigao.")
