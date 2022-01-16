@@ -6,11 +6,8 @@ Escrevendo um iterator
 for n in range(1,11):
     print(n)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Criando um iterador customizado
 
-
-
-
-"""
 class Contador:
     def __init__(self,menor,maior): #Funçoes dentro de classes são chamadas metodos #__init__ é uma função chamada construtor
         self.menor = menor
@@ -35,3 +32,8 @@ print(next(it))
 
 for n in Contador(1,61):
     print(n)
+
+
+
+
+"""
