@@ -8,7 +8,10 @@ Entendo Iterators e Itereables
 Exemplo de iterator:
 
 string = "ola" ->iterable
-print(string[0]) ->iterator
+para isso acontecer temos que usar a função iter(string)
+it1 = iter(string)-> iterator 
+print(next(it1))
+
 -------------------------------------------------------------------------------------------------------------------------
 #Iterable
            - Um objeto que ira retorna um iterator quando a função iter() for chamada
@@ -17,7 +20,10 @@ print(string[0]) ->iterator
 String,tupla,dicionario,lista, conjuntos -> todos os tipos de "conjuntos estudados até agora"
 
 string = "ola"
+-------------------------------------------------------------------------------------------------------------------------
+Por baixo dos panos, o for faz este processo.
 
+Ele pega um iteravel, transforma em um iterator e depois usa o next()->"proximo em inglês"
 
 """
 string = "ola"
