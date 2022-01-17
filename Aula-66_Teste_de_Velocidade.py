@@ -20,11 +20,6 @@ print(next(ge2))
 ----------------------------------------------------------------------------------------------------------------------------------
 #Realizando o teste de velocidade 
 
-
-
-"""
-
-
 import time
 
 #Generator Expression
@@ -38,3 +33,7 @@ list_inicio = time.time()
 print(sum([num for num in range(10000000)]))
 list_tempo = time.time() - list_inicio
 print(list_tempo)
+
+"""
+
+
