@@ -26,6 +26,8 @@ OBS: Quando nomeamos nossas classe em python utilizamos CalmeCase
 OBS: Em programação não utiliza-se caracteres especias e espaços para: classes, atributos, metodos, objetos, arquivos, diretórios e etc.
 -------------------------------------------------------------------------------------------------------------------------------------------
 OBS: Quando estamos planejado um software e definimos quais classe teremos que ter no sistema, chamamos estes objetos que serão mapeados parar  classes de entidade
+-------------------------------------------------------------------------------------------------------------------------------------------
+
 """
 
 
