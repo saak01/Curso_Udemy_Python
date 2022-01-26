@@ -35,12 +35,8 @@ Quando uma classe herda de outra, ela é chamada:
     - Classe Pilha;
     - Classe Especifica
 
-
-
-"""
-
-
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Forma para herdar:
 
 class Pessoa:
     
@@ -60,6 +56,49 @@ class Cliente(Pessoa):
 
 
 class Funcionario(Pessoa):
-    def __init__(self, nome, sobrenome, cpf, funcionario):
+    def __init__(self, nome, sobrenome, cpf, matricula):
         super().__init__(nome, sobrenome, cpf)
-        self.__funcionario = funcionario
+        self.__matricula = matricula
+
+fun1 = Funcionario('Joao Victor','Alves Costa','844231414141','42341')
+print(fun1.nomecompleto())
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Sobrescrita de metodo, ocorre quando reescrevemos/reimplemetando um metodo presente na superclasse em classes filhas
+
+Exemplo:
+
+
+
+
+
+
+"""
+
+
+class Pessoa:
+    
+    def __init__(self, nome, sobrenome, cpf):
+        self.__nome = nome
+        self.__sobrenome = sobrenome
+        self.__cpf = cpf
+
+    def nomecompleto(self):
+        return f'{self.__nome} {self.__sobrenome}'
+
+#Cliente Herda de pessoa
+class Cliente(Pessoa):
+    def __init__(self, nome, sobrenome, cpf,renda):
+        super().__init__(nome, sobrenome, cpf)
+        self.__renda = renda
+    
+class Funcionario(Pessoa):
+    def __init__(self, nome, sobrenome, cpf, matricula):
+        super().__init__(nome, sobrenome, cpf)
+        self.__matricula = matricula
+
+    def nomecompleto(self):
+        return f'id:{self.__matricula} '
+
+
+fun1 = Funcionario('Joao Victor','Alves Costa','844231414141','42341')
+print(fun1.nomecompleto())
