@@ -105,7 +105,25 @@ Quando usar os metodos de instancia e classe:
 -Criamos metodos de instancia quando precisamos fazer acesso a atributos de instancias
 
 #Métodos de Classe
--Método de classe em python são conhecido em outras linguagem como métodos estaticos.
+-Método de classe em python são conhecido em outras linguagem como métodos estaticos. E não fazem acesso a atributos de instancias
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Existe tambem uma subdivisão de métodos: Métodos publicos e privados.
+
+-Métodos privados
+Da mesma forma que os atributos, os acessos só são permitidos dentro da classe.
+
+-Métodos publicos
+
+#OBS: é possivel fazer o acesso pelo name-manglin, mas é a forma ruim:
+
+ print(user._Usuario__gera_usuario)
+
+Da mesma forma que os atributos, os acessos são permitido fora da classe
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Método estático
+-Não é utilizado nada como parâmetro e o decorator usado é 'staticmethod'
+
+
 
 
 """
