@@ -1,6 +1,8 @@
 """
 POO - Propriedade - Proprities
 
+#Atenção: Como é uma propriedade não existe os parenteses, NAO ESQUECER.
+
 #Metodos get-pegar, sets-setar/colocar
 ---------------------------------------------------------------------------------------------------------------
 class Conta:
@@ -78,5 +80,12 @@ cont1 = Conta('Joao Victor Alves Costa',3000,3000)
 print(cont1.saldo)
 cont1.saldo = 90000
 print(cont1.saldo)
+---------------------------------------------------------------------------------------------------------------------------
+Podemos criar metodos com uma propriedade
 
+@property
+def valortotal(self):
+    return self__saldo + self__limite
+
+@
 """
